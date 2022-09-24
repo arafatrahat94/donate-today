@@ -1,18 +1,17 @@
 body{
-    margin: 0%;
     font-family: 'Varela Round', sans-serif;
     width: 100%;
+    margin: 0%;
 }
 .top-banner{
-    background-image: url(images/donation9.jpg);
+    background-image: linear-gradient(rgba(77, 77, 77, 0.185), rgba(0, 0, 0, 0.836)), url(images/donation9.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     height: 700px;
     width: 2000px;
-    position: fixed;
 }
 .first-texth1{
-    padding-left: 20%;
+    padding-left: 22%;
     color: white;
     font-size: 60px;
     width: 40%;
@@ -36,4 +35,36 @@ body{
 .button{
     padding-top: 20px;
     padding-left: 35%;
+}
+.mid-text-h1{
+    font-size: 40px;
+    padding-left: 43%;
+    padding-top: 2%;
+}
+.mid-text-p1{
+    font-size: 17px;
+    text-align: center;
+    width: 39%;
+    padding-left: 32%;
+}
+.mid-ammount{
+    display: flex;
+    padding-left: 30%;
+    color: #575757;
+}
+.first-ammount{
+    padding-right: 5%;
+}
+.first-ammount1{
+    padding-right: 5%;
+}
+.ammount-two{
+    color: #FF5959;
+    border: 4px solid #FF5959;
+    padding: 30px 25px 25px 30px;
+    border-radius: 10px;
+    margin-bottom: 10%;
+}
+.first-ammount2{
+    padding-right: 3%;
 }
