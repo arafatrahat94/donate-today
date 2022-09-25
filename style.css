@@ -75,3 +75,17 @@ padding: 10px;
     color: #FF5959;
     padding-inline: 70px;
 }
+.hey{
+    text-decoration: none;
+    width: 30%;
+    padding: 20px 40px;
+    background-color: #FF5959;
+    margin: 0%;
+    font-size: 20px;
+    color: white;border-radius: 5px;
+}
+#sh{
+    text-align: center;
+    padding-right: 3.5%;
+    padding-top: 5%;
+}
