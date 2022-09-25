@@ -1,28 +1,31 @@
 body{
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Poppins', sans-serif;
     width: 100%;
     margin: 0%;
 }
-.top-banner{
+#top-banner{
     background-image: linear-gradient(rgba(77, 77, 77, 0.185), rgba(0, 0, 0, 0.836)), url(images/donation9.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     height: 700px;
-    width: 2000px;
+    width: 1500px;
+    padding: 10%;
 }
-.first-texth1{
-    padding-left: 22%;
-    color: white;
-    font-size: 60px;
-    width: 40%;
-    text-align: center;
+#top-banner h1{
+text-align: center;
+color: white;
+margin: 0%;
+font-size: 85px;
+padding: 10px;
 }
-.first-textp{
-    padding-left: 21%;
+#top-banner p{
     color: white;
-    width: 35%;
-    font-size: 24px;
+    margin: 0%;
     text-align: center;
+    font-size: 30px;
+}
+.top-bannerp{
+    padding-top: 5%;
 }
 .donate-button{
     color: white;
@@ -33,38 +36,42 @@ body{
     font-size: 20px;
 }
 .button{
-    padding-top: 20px;
-    padding-left: 35%;
-}
-.mid-text-h1{
-    font-size: 40px;
-    padding-left: 43%;
-    padding-top: 2%;
-}
-.mid-text-p1{
-    font-size: 17px;
     text-align: center;
-    width: 39%;
-    padding-left: 32%;
+    padding-top: 50px;
 }
-.mid-ammount{
+#mid-text{
+    text-align: center;
+   margin: 0%;
+}
+#mid-text h1{
+    font-size: 60px;
+}
+#mid-text p1{
+    font-size: 20px;
+}
+.mid-textp{
+    text-align: center;
+    width: 45%;
+    padding-left: 27%;
+}
+#money{
+    font-size: 40px;
     display: flex;
-    padding-left: 30%;
+    font-weight: bolder;
+    justify-content: space-between;
+    width: 65%;
+    padding-left: 17%;
+    padding-top: 2%;
+
+}
+.non-ammount{
     color: #575757;
+    background-color: #FAFAFA;
 }
-.first-ammount{
-    padding-right: 5%;
-}
-.first-ammount1{
-    padding-right: 5%;
-}
-.ammount-two{
+.giv-ammount1{
+    background-color: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 15px;
     color: #FF5959;
-    border: 4px solid #FF5959;
-    padding: 30px 25px 25px 30px;
-    border-radius: 10px;
-    margin-bottom: 10%;
-}
-.first-ammount2{
-    padding-right: 3%;
+    padding-inline: 70px;
 }
