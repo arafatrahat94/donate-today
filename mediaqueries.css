@@ -1,0 +1,266 @@
+/* for the smaller device */
+@media screen and (max-width: 576px) {
+    .banner{
+        background-size: 100% 70%;
+        
+    }
+    .banner-items{
+        padding: 30px 0%;
+        margin: 0;
+    }
+    .banner-tittle{
+        color: rgb(255, 255, 255);
+        height: auto;
+        width: auto;
+        padding: 0;
+        margin: 0;
+        font-size: 30px;
+        margin-top: 30px;
+    }
+    .banner-info{
+        font-weight: 400;
+        font-size: 16px;
+        color: rgb(255, 255, 255);
+        height: 56px;
+        margin: 0 10px;
+    }
+    .banner-button{
+        margin-top: 40px;
+        margin-bottom: 175px;
+        border: 10px;
+        border-radius: 5px;
+        font-size: 20px;
+        font-weight: 600;
+        padding: 10px 16px;
+        background-color: #59a9ff;
+    }
+    /* donate section */
+    .donate{
+        position: relative;
+        top: -200px;
+    }
+    .donate-tittle{
+        margin: 0 0;
+        font-size: 25px;
+        display: flex;
+        margin-bottom: 10px;
+        justify-content: center;
+    }
+    .donate-info{
+        display: flex;
+        text-align: center;
+        font-size: 16px;
+        transform: scale(0.9);
+        width: 100%;
+        font-weight: 400;
+        color: #707070;
+        margin: 0 0px;
+        margin-bottom: 50px;
+    }
+    .amount-button{
+        display: flex;
+        justify-content: center;
+        gap: 0px;
+        flex-direction: column;
+    }
+    .non-colored{
+        border-radius: 5px;
+        border: 1px solid #707070;
+        
+        font-weight: 700;
+        font-size: 20px;
+        margin-left: 25%;
+        margin-right: 25%;
+        color: #707070;
+        background-color: white;
+        
+    }
+    .color{
+        color: #59a9ff;
+        border: 2px solid #59a9ff;
+        background: #FFEEEE;
+    }
+    input{
+        padding-right: 80px;
+    }
+    /* donate section */
+    .donate-plan-tittle{
+        display: flex;
+        flex-direction: column;
+    }
+    .donate-plan{
+        font-size: 30px;
+        margin-top: 0px;
+    }
+    .donate-plan-des{
+        margin: 0 0px;
+        text-align: center;
+        font-size: 1em;
+        font-weight: 400;
+    }
+    .donate-plan-info{
+        flex-direction: column;
+    }
+    .donate-firs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0% 10px;
+        text-align: center;
+        margin: 0 5%;
+        padding-bottom: 54px;
+    }
+/* ending part one style */
+    .ending-one-container{
+       
+    }
+    .ending-one-stuffs{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        gap: 43px; 
+        margin-bottom: 100px;
+    }
+    .ending-part-one{
+        margin: 0;
+        width: 80%;
+        height: 80%;
+        border-radius: 10px;
+    }
+    .ending-writing{
+        margin-left: 0px;
+        height: 374px;
+        margin-top: 30px;
+    }
+    .ending-tittle{
+        font-size: 25px;
+        font-weight: 700;
+        text-align: center;
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+    .endin-info-one{
+        width: 300px;
+        height: auto;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        color: #707070;
+        margin-left: 0px;
+    }
+    .contribute-button{
+        margin-top: 30px;
+        text-align: center;
+        margin-left: 47px;
+        background-color: #59a9ff;
+        border: 0;
+        border-radius: 5px;
+        color: white;
+        padding: 16px 21px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    /* ending part one other half */
+.ending-two-stuffs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    margin-bottom: 50px;
+}
+.end-part-two{
+    margin: 0;
+    width: 80%;
+    height: 80%;
+    margin-top: 51px;
+    border-radius: 10px;
+}
+.end-tittle{
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.end-info{
+    width: 300px;
+    height: auto;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #707070;
+    margin: 0px;
+}
+.contribute-button-two{
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 32px;
+    background-color: #59a9ff;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    padding: 16px 21px;
+}
+/* *************Get My Updates************ */
+.my-updates{
+    text-align: center;
+    margin-top: 130px;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.my-updates-info{
+    margin: 0 0px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: #707070;
+    margin-bottom: 50px;
+}
+/* email section */
+
+.email{
+    background-color: #FFF4D6;
+    margin: 0 0px;
+    padding: 46px 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.input{
+    background-color: #D9D9D9;
+    color: #AA9F9F;
+    padding: 14px 0;
+    width: 50%;
+    padding-left: 10px;
+    padding-right: 0px;
+    text-align: left;
+    border-radius: 5px 0px 0px 5px;
+}
+.input-button{
+    padding: 18px 43px;
+    background-color: #59a9ff;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 500;
+}
+}
+
+/* for medium device */
+@media screen and (min-widht: 577px) and (max-width: 992px) {
+    .banner{
+        background-size: 100% 70%;
+        
+    }
+    .banner-items{
+        padding: 30px 0%;
+        margin: 0;
+    }
+    .hide{
+        display: none;
+    }
+}
