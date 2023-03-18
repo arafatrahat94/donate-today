@@ -1,7 +1,7 @@
 /* for the smaller device */
 @media screen and (max-width: 576px) {
     .banner{
-        background-size: 100% 70%;
+        background-size: 100% 65%;
         
     }
     .banner-items{
@@ -14,22 +14,21 @@
         width: auto;
         padding: 0;
         margin: 0;
-        font-size: 30px;
+        font-size: 20px;
         margin-top: 30px;
     }
     .banner-info{
         font-weight: 400;
-        font-size: 16px;
+        font-size: 14px;
         color: rgb(255, 255, 255);
-        height: 56px;
         margin: 0 10px;
     }
     .banner-button{
-        margin-top: 40px;
+        margin-top: 10px;
         margin-bottom: 175px;
         border: 10px;
         border-radius: 5px;
-        font-size: 20px;
+        font-size: 14px;
         font-weight: 600;
         padding: 10px 16px;
         background-color: #59a9ff;
@@ -90,7 +89,17 @@
     }
     input{
         padding-right: 0px;
-        width: 50px;
+        width: 50%;
+        font-size: 15px;
+    }
+    .donate-button{
+        background-color: #59a9ff;
+        color: white;
+        border: 0;
+        font-size: 20px;
+        font-weight: 600;
+        padding: 16px 20.5px;
+        border-radius: 5px;
     }
     /* donate section */
     .donate-plan-tittle{
