@@ -75,13 +75,22 @@
         background-color: white;
         
     }
+    .hr{
+        margin: 0 0;
+        width: auto;
+        height: 0;
+        border: 1px solid #dadada;
+        margin-top: 9.5px;
+        margin-bottom: 30px;
+    }
     .color{
         color: #59a9ff;
         border: 2px solid #59a9ff;
         background: #FFEEEE;
     }
     input{
-        padding-right: 80px;
+        padding-right: 0px;
+        width: 50px;
     }
     /* donate section */
     .donate-plan-tittle{
@@ -247,6 +256,9 @@
     border: 0;
     border-radius: 5px;
     font-weight: 500;
+}
+.hide{
+    display: none;
 }
 }
 
